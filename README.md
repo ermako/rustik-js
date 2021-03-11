@@ -1,12 +1,17 @@
 # rustikJS
 ## a DSL for Speedsolvers with a JavaScript Interpreter
 
-Syntax:
+###Syntax:
+- State (...)
+- Only (...)
+- Moves (...)
+- State ( Scrambled )
 
 
-Example
+###Example
 
-# generate different Ua permutations
+```
+generate different Ua permutations
 State (
     rrr
     rrr
@@ -37,7 +42,4 @@ ggg yyy bbb www
     ooo
     ooo
 )
-
-
-
-
+```
