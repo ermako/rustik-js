@@ -1,0 +1,34 @@
+# this is a comment
+State (
+
+
+
+
+
+ www
+          www
+    www
+      ooo ggg rrr bbb
+ooo ggg rrr bbb ##comment
+ooo ggg rrr bbb
+    yyy
+    yyy #comment #comment
+    yyy #comment
+)
+
+#comment
+State(wwww...............bbooogggrrrbbbo...............yyyyy) #comment
+
+Restrict (
+   R after L #comment
+   # comment
+)
+
+Or Only ( 
+   R
+   L
+   U
+   F
+)
+
+State ( Scrambled )

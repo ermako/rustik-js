@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>rustikJS</title>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="bundle.js"></script>
+  <style type="text/css">
+    body * {
+    font-size: 18px;
+    font-family: Hack, Arial, sans;
+    }
+    h1 { font-size: 32px; }
+    textarea { font-family: Hack, Consolas, Courier, monospace; }
+    span { font-family: Hack, Consolas, Courier, monospace; font-size: 22px; }
+  </style>
+</head>
+<script>
+  function interpretAction() {
+  const output = interpret(document.getElementById('reInput').value);
+  document.getElementById('reOutput').innerHTML = output;
+  }
+</script>
+<body>
+  <heading>
+    <h1>rustikJS</h1>
+    <h2>A JavaScript interpreter for the Rustik speedsolving DSL.</h2>
+    <h2>CSE 590 P HW5.</h2>
+    <h2>Eric Koegler.</h2>
+  </heading>
+  <p>Type a rustikfile (.rstk) here:</p>
+  <textarea id="reInput" rows="20" cols="50"># try out just one turn
+State (
+    www
+    www
+    www
+ooo ggg rrr bbb
+ooo ggg rrr bbb
+ooo ggg rrr bbb
+    yyy
+    yyy 
+    yyy
+)
+State (
+    www
+    www
+    www
+ggg rrr bbb ooo
+ooo ggg rrr bbb
+ooo ggg rrr bbb
+    yyy
+    yyy 
+    yyy
+)
+</textarea>
+  <br>
+  <button style="margin:16px;" onclick="interpretAction()">interpret!</button>
+  <br>
+  <pre id="reOutput"></pre>
+</body>
+</html>

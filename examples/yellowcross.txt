@@ -1,0 +1,17 @@
+# find yellow cross solutions (harder)
+State (
+   Scrambled
+)
+Only (RUFDR'U'F'D')
+Moves (10)
+State (
+    ...
+    ...
+    ...
+... ... ... ...
+.o. .g. .r. .b.
+.o. .g. .r. .b.
+    .y.
+    yyy 
+    .y.
+)

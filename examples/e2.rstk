@@ -1,0 +1,18 @@
+State ( Scrambled )
+Restrict (
+   R'
+   L
+
+)
+Only (
+   B
+   L after R'
+)
+
+State ( Scrambled )
+Only (
+   R R'
+   U U'
+   F F'
+)
+State ( Scrambled )
