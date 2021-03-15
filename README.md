@@ -17,6 +17,8 @@ You can try out `rustikJS`, a `rustik` browser-based JavaScript interpreter in y
 git clone git@github.com:ermako/rustik-js.git
 cd rustik-js
 npm install
+npm run antlr4
+npm run antlr4-java
 firefox index.html
 ```
 You can now enter a `rustikfile` into the text area in your browser for `rustikJS` to run. Sample programs are
