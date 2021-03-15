@@ -11,7 +11,7 @@ Project Proposal: https://docs.google.com/document/d/1pD3j0hb6g5_DgrUphOGV3IGIOK
 
 ## a DSL and Interpreter for Cubers
 
-### Installation
+### Installation and Usage
 You can try out `rustikJS`, a `rustik` browser-based JavaScript interpreter in your browser (tested with Firefox and Chrome).
 ```
 git clone git@github.com:ermako/rustik-js.git
@@ -19,6 +19,8 @@ cd rustik-js
 npm install
 firefox index.html
 ```
+You can now enter a `rustikfile` into the text area in your browser for `rustikJS` to run. Sample programs are
+provided in [examples](/examples).
 
 ### Cube Notation
 - `R`: a 90-degree clockwise rotation of the right face
