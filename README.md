@@ -7,9 +7,18 @@ Video Demonstration: https://drive.google.com/file/d/13MwIxfsnG8eZ2kyiOpVm5U-lTW
 
 Project Design: https://docs.google.com/document/d/1igl44iRWeNCHrewDm-B5kRvG7u0oRzdRm62BrTqYkXo/edit?usp=sharing
 
-Project Proposal: https://docs.google.com/document/d/1hFSD_dpwIptrtuDkQhydme0zpFpUZZCxKrk2bXOwwFw/edit?usp=sharing
+Project Proposal: https://docs.google.com/document/d/1pD3j0hb6g5_DgrUphOGV3IGIOKakSHueTDi2AIMF05M/edit?usp=sharing
 
-## a DSL for Speedsolvers with a JavaScript Interpreter
+## a DSL and Interpreter for Cubers
+
+### Installation
+You can try out `rustikJS`, a `rustik` browser-based JavaScript interpreter in your browser (tested with Firefox and Chrome).
+```
+git clone git@github.com:ermako/rustik-js.git
+cd rustik-js
+npm install
+firefox index.html
+```
 
 ### Cube Notation
 - `R`: a 90-degree clockwise rotation of the right face
